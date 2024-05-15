@@ -22,7 +22,7 @@ function App() {
         }}
       >
         <div className="relative m-4 my-8">
-          <div className="absolute inset-y-0 start-[6.4rem] flex items-center ps-3 pointer-events-">
+          <div className="absolute inset-y-0 start-[1.4rem] lg:start-[6.4rem] flex items-center ps-3 pointer-events-">
             {globalSearch === "" ? (
               <svg
                 className="w-5 h-5 text-gray-600 font-bold"
@@ -56,6 +56,7 @@ function App() {
           <input
             type="search"
             id="default-search"
+            autoFocus
             autoComplete="off"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
@@ -65,8 +66,8 @@ function App() {
             // required
           />
           <button
-            type="submit"
-            className="absolute end-[6.5rem] top-2 left-[calc(100% - 6.5rem)] text-[rgba(42,82,122,1)] font-medium rounded-lg px-4 py-2"
+            // type="submit"
+            className="absolute lg:end-28 -end-28 text-[rgba(42,82,122,1)] bottom-2.5 font-medium rounded-lg px-4 py-2"
           >
             Search
           </button>
