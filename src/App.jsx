@@ -21,7 +21,7 @@ function App() {
           setGlobalSearch(search);
         }}
       >
-        <div className="relative bg-red-400 w-fit m-4 my-8">
+        <div className="relative mx-auto w-fit m-4 my-8">
           <div className="absolute inset-y-0 start-[1.2rem] flex items-center ps-3">
             {globalSearch === "" ? (
               <svg
@@ -67,7 +67,7 @@ function App() {
           />
           <button
             // type="submit"
-            className="absolute end-4 text-[rgba(42,82,122,1)] bottom-2.5 font-medium rounded-lg px-4 py-2"
+            className="absolute end-6 text-[rgba(42,82,122,1)] bottom-2.5 font-medium rounded-lg px-4 py-2"
           >
             Search
           </button>
