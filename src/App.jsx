@@ -46,7 +46,7 @@ function App() {
                   setGlobalSearch("");
                   setSearch("");
                 }}
-                className="h-6 z-10 cursor-pointer select-none opacity-80"
+                className="h-6 z-10 cursor-pointer select-none opacity-[0.6]"
                 src="https://cdn-icons-png.flaticon.com/512/0/340.png"
                 alt=""
                 srcset=""
