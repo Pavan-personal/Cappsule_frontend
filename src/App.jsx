@@ -21,7 +21,7 @@ function App() {
           setGlobalSearch(search);
         }}
       >
-        <div className="relative m-4 my-8">
+        <div className="relative bg-red-400 m-4 my-8">
           <div className="absolute inset-y-0 start-[6.4rem] flex items-center ps-3 pointer-events-">
             {globalSearch === "" ? (
               <svg
